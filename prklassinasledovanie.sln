@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prchast1", "prklassinasledovanie\prchast1.csproj", "{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prchast2", "prchast2\prchast2.csproj", "{E44971EE-3195-4598-81AD-48378F6795E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44971EE-3195-4598-81AD-48378F6795E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44971EE-3195-4598-81AD-48378F6795E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44971EE-3195-4598-81AD-48378F6795E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44971EE-3195-4598-81AD-48378F6795E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C762B787-76DF-4EC7-A092-34E71C76ED25}
+	EndGlobalSection
+EndGlobal
