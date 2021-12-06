@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prchast1", "prklassinasledovanie\prchast1.csproj", "{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prchast1", "prklassinasledovanie\prchast1.csproj", "{A0811E4A-DCDB-4E55-ABF8-BC09B2E089A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prchast2", "prchast2\prchast2.csproj", "{E44971EE-3195-4598-81AD-48378F6795E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "prchast2", "prchast2\prchast2.csproj", "{E44971EE-3195-4598-81AD-48378F6795E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ferma", "Ferma\Ferma.csproj", "{F04CBF04-45EF-4CCB-94C3-B32E50B93F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E44971EE-3195-4598-81AD-48378F6795E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E44971EE-3195-4598-81AD-48378F6795E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E44971EE-3195-4598-81AD-48378F6795E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04CBF04-45EF-4CCB-94C3-B32E50B93F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04CBF04-45EF-4CCB-94C3-B32E50B93F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04CBF04-45EF-4CCB-94C3-B32E50B93F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04CBF04-45EF-4CCB-94C3-B32E50B93F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

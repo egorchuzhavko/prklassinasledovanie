@@ -5,33 +5,29 @@ using System.Text;
 namespace prchast2
 {
     class Rational : Pair
-    { 
-        public Rational(int first, int second): base(first, second) { }
-        public int Sub(Rational p)
+    {
+        public Rational(int first, int second) : base(first, second) { }
+
+        public Rational Sub(Rational p)
         {
-            if (this.second == p.second)
-            {
-                return this.first - p.first;
-            }
-            else
-            {
-                return 0;
-            }
+            Rational a = new Rational(this.first * p.second - p.First * this.second, this.second * p.second);
+            return a;
+        }
+        public override Pair Sub(Pair pp)
+        {
+            Rational p = pp as Rational;
+            return new Rational(this.first * p.second - p.First * this.second, this.second * p.second); ;
+        }
+        public Rational Sum(Rational p)
+        {
+            return new Rational(this.first * p.second + p.First * this.second, this.second * p.second); ;
         }
 
-        public int Sum(Rational p)
+        public Rational Multiply(Rational p)
         {
-            if (this.second == p.second)
-            {
-                return this.first + p.first;
-            }
-            return 0;
+            return new Rational(this.first * p.First, this.second * p.Second);
         }
 
-        public string Multiply(Rational p)
-        {
-            return $"{this.first * p.first}/{this.second * p.second}";
-        }
-
+        public override string ToString() { return $"{this.First}/{this.Second}"; }
     }
 }

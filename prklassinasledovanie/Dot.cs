@@ -15,6 +15,7 @@ namespace prchast1
             this.x = x;
             this.y = y;
         }
+
         public void SetX(double x){ this.x = x; }
         public void SetY(double y) { this.y = y; }
         public double GetX() { return x; }
